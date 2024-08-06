@@ -1,0 +1,54 @@
+.navbar-nav{
+    margin-left: 300px;
+    
+}
+
+.logo{
+    height:80px;
+    width:150px;
+    border-radius: 10px;
+}
+
+
+.main{
+    height: 700px;
+    width: 1472px;
+    background-color: brown;
+}
+
+.text{
+    height: 200px;
+    width: 400px;
+    border: 1px solid brown;
+    margin-left: 500px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: futura-pt;
+}
+
+.box{
+    height: 450px;
+    width: 450px;
+    border: 1px solid black;
+    margin-left: 500px;
+    background-color: white;
+    text-align: center;
+}
+
+.input{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+.btn{
+    height: 40px;
+    width: 400px;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+.span{
+    color: rgb(136, 25, 25);
+    margin-left: 40px;
+}
