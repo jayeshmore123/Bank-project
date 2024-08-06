@@ -4,8 +4,322 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../style/home.css">
 </head>
 <body>
-    <h1>hello</h1>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""><img class="logo" src="../images/logo.png"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./../pages/Home.html">Home</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="./../pages/About.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/Account.html">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/Loans.html">loans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/Insurance.html">insurance</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/Payment.html">Payment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/Cards.html">card</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/Login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/Sign.html">singin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./../images/mainimg1.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./../images/mainimg2.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./../images/mainimg3.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h1 class="heading">Popular</h1>
+
+
+      <div>
+        <div class="popcardmain" data-aos="fade-right" data-aos-duration="2000">
+            <div class="popcard">
+                <h3 class="popcardhead">Savings Account</h3>
+                <p class="popcardtext">ZERO charges on non-home <br>branch transactions</p>
+                    <button class="popcardbtn">Apply Now</button>
+                </div>
+            <div class="popcard">
+                    <h3 class="popcardhead">Credit Cards</h3>
+                    <p class="popcardtext">Get Credit Cards powered <br> by UPI</p>
+                        <button class="popcardbtn">Apply Now</button>
+                </div>
+                <div class="popcard">
+                    <h3 class="popcardhead">Corporate Salary Account</h3>
+                    <p class="popcardtext">Get Amazon Prime Membership</p>
+                        <button class="popcardbtn">Apply Now</button>
+                    </div>
+        </div>
+<br><br><br><br>
+        <div class="popcardmain"  data-aos="fade-left" data-aos-duration="2000">
+            <div class="popcard">
+                <h3 class="popcardhead">Savings Account</h3>
+                <p class="popcardtext">Recognised as ‘Class Apart’ by Moneylife <br> Foundation & IIT Bombay</p>
+                    <button class="popcardbtn">Apply Now</button>
+                </div>
+            <div class="popcard">
+                    <h3 class="popcardhead">Personal Loan</h3>
+                    <p class="popcardtext">Get a credit line of up to ₹10 lakh in a flash</p>
+                        <button class="popcardbtn">Apply Now</button>
+                </div>
+                <div class="popcard">
+                    <h3 class="popcardhead">Mutual Funds</h3>
+                    <p class="popcardtext">Invest in top funds curated by our experts</p>
+                        <button class="popcardbtn">Apply Now</button>
+                    </div>
+        </div>
+    </div>
+
+
+      
+      <div>
+        <h1 class="heading">What makes us special?</h1>
+        <p class="text">We truly mean it when we say we want to be the most customer-friendly bank.</p>
+      </div>
+
+      <div class="card-group" data-aos="zoom-in-up" data-aos-duration="2000">
+        <div class="card" style="background-color: rgb(83, 174, 210);">
+          <img src="./../images/rupee (1).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            <p class="card-text">Zero charges on non-home branch transaction</p>
+            
+          </div>
+        </div>
+        <div class="card" style="background-color: rgb(114, 37, 37);" style="border-radius: 20px 30px;">
+          <img src="./../images/rupee.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            <p class="card-text">Monthly interest credits on your Saving Accounts</p>
+            
+          </div>
+        </div>
+        <div class="card" style="background-color: rgb(83, 174, 210);">
+          <img src="./../images/shopping-cart.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            <p class="card-text">Reward points that are as good as cash!</p>
+           
+          </div>
+        </div>
+      </div>
+
+      
+        <div>
+          <h1 class="heading">Helping our communities grow with us</h1>
+        </div>
+
+        <div class="mainbox">
+          <div class="box" data-aos="fade-right" data-aos-duration="2000">
+            <img class="boxlogo" src="./../images/benefit.png" alt="">
+            <h3 class="boxhead">9.3 Million Beneficiaries</h3>
+            <p class="boxpara">Supported since March 2023</p>
+          </div>
+          <div class="box" data-aos="fade-right" data-aos-duration="2000">
+            <img class="boxlogo" src="./../images/home.png" alt="">
+            <h3 class="boxhead">700,000 Villages</h3>
+            <p class="boxpara">Served across the Country</p>
+          </div>
+          <div class="box" data-aos="fade-left" data-aos-duration="2000">
+            <img class="boxlogo" src="./../images/bulding.png" alt="">
+            <h3 class="boxhead">9000 Residents</h3>
+            <p class="boxpara">Impacted positively through our Swachh Worli Koliwada program</p>
+          </div>
+          <div class="box" data-aos="fade-left" data-aos-duration="2000">
+            <img class="boxlogo" src="./../images/lightbulb.png" alt="">
+            <h3 class="boxhead">351 Students</h3>
+            <p class="boxpara">Awarded post-gradute Scholarships this year</p>
+          </div>
+        </div>
+      
+
+        <h1 class="heading">Awards & Accolades</h1>
+        <p class="text">A glimpse of IDFC FIRST Bank's testament to excellence</p>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/awards/Award-b-682X385-no-capt.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IDFC FIRST Bank wins the 'Digital Sourcing & Decisioning Excellence' award at Lentra CNBC-TV18 Digital Lending Summit</h5>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/awards/Golden-Peacock-Awards-350X317.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IDFC FIRST Bank wins the prestigious Golden Peacock Award for ESG (National) for 2023</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/awards/website-FE-India-s-Best-Banks-Awards-350X317.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IDFC FIRST Bank emerges as the ‘Best Digital Bank’ at FE India's Best Banks Awards 2023</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/awards/National-Awards-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IDFC FIRST Bank wins two National Awards for Excellence in Banking, Financial Services, and Insurance for 2023 and ‘Dream Company to Work For – HR’</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        
+       <footer class="footer" >
+
+        <div class="footer1">
+          <div>
+            <h4>About IDFC FIRST Bank</h4>
+            <p>Leadership</p>
+            <p>Careers</p>
+            <p>Investor Relations</p>
+            <p>Code Of Conduct</p>
+            <p>Awards & Accolades</p>
+          </div>
+          <div>
+            <h4>Popular Products</h4>
+            <p>Personal Loan</p>
+            <p>Credit Cards</p>
+            <p>Home Loan</p>
+            <p>Savings Account</p>
+            <p>Corporate Salary <br>Account</p>
+          </div>
+          <div>
+            <h4>Important Links</h4>
+            <p>Regulatory Disclosures</p>
+            <p>Notice Board</p>
+            <p>CSR Activities</p>
+            <p>IDFC FIRST Bank’s No <br>Gift Policy</p>
+            <p>Indian Bank'sb <br> Association Advisory</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <p>Merger - IDFC Bank and Capital First Ltd.</p>
+            <p>Form Center</p>
+            <p>MCLR</p>
+            <p>RBI Kehta Hai</p>
+            <p>Loan Repayment Options</p>
+          </div>
+
+        </div>
+
+
+
+        <div class="footer2">
+          <div>
+            <div>
+              <h2 class="foottext">Follow Us</h2>
+            </div>
+            <span>
+              <img class="footlogo" src="./../images/social.png" alt="">
+            </span>
+              <span>
+                <img class="footlogo" src="./../images/twitter.png" alt="">
+              </span>
+              <span>
+                <img class="footlogo" src="./../images/business.png" alt="">
+              </span>
+              <span>
+                <img class="footlogo" src="./../images/youtube.png" alt="">
+              </span>
+              
+            </div>
+            <div>
+              <h2 class="footh2">Download IDFC FIRST Bank App:</h2>
+              <h2 class="footh3">Download Now</h2>
+            </div>
+  
+            <div>
+              <h2 class="footh2">PCI DSS SECURITY COMPLIANT</h2>
+              <img class="footimg" src="https://tse1.mm.bing.net/th?id=OIP.xq_stLbaO0IhzCzZzt2WpQHaD4&pid=Api&P=0&h=180" alt="">
+            </div>
+  
+        </div>
+        
+
+       </footer>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
